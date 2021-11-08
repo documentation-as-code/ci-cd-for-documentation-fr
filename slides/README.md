@@ -23,7 +23,7 @@ footer: '[github/ojacques](https://github.com/ojacques) &nbsp; &nbsp; &nbsp; &nb
 <br/>
 
 # CI and CD
-## For documentation
+## Pour la documentation
 
 <!-- 
 speaker: Olivier
@@ -56,7 +56,7 @@ With 19.6B$ of revenues, 6000 customers and 138000 employees across 70 countries
 ---
 <!--backgroundImage: url('https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/simple.jpg')-->
 
-The quest for great documentation
+Documentation : La quête de la perfection
 
 # 🏰🦄🤴👸🐴👻⚔🗡🏴‍☠️
 
@@ -90,13 +90,13 @@ Today, it's a very different situation
 
 ---
 
-# We do a lot of documentation
+# Nous avons beaucoup documenté
 
-## (as code)
+## (avec du code)
 
-- 1 service catalog: the entry point
-- 174 services: technical documentation
-- 630 contributors
+- 1 catalogue de service: contenant différents points d'entrée
+- 174 services: Documentation technique
+- 630 contributeurs
 
 <!--
 
@@ -112,8 +112,8 @@ The context for the experience report is our own company (but we do that with ou
 
 ![bg 95% right:62%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/service-catalog-hugo.gif)
 
-# Service catalog
-With [Hugo](https://gohugo.io/)
+# Catalogue de service
+Avec [Hugo](https://gohugo.io/)
 
 <!--
 Speaker: Olivier
@@ -129,8 +129,8 @@ Service catalog:
 
 ![bg 95% right:62%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/service-documentation-mkdocs.gif)
 
-# Service documentation
-With [MkDocs](https://www.mkdocs.org/) +
+# Documentation de service
+Avec [MkDocs](https://www.mkdocs.org/) +
 [material theme](https://squidfunk.github.io/mkdocs-material/)
 
 <!--
@@ -151,15 +151,14 @@ Speaker: Olivier
 ---
 # 🤯
 
-## DXC, Microsoft, GitHub, GitLab, AWS all use "Documentation as code"
+## DXC, Microsoft, GitHub, GitLab, AWS tous utilisent "Documentation as code"
 
-Because:
+Pour de bonnes raisons:
 
-- It's fast, secure and cheap (static sites)
-- It's easier to contribute to / keep up-to-date
-- It's battle tested
-- It's engineered
-- We can monitor it (think analytics)
+- C'est rapide, sécurisé pas cher (sites statiques)
+- Il est facile de contribuer et donc de garder la documentation à jour
+- Cette solution a été éprouvée à plus d'un titre
+- Cela peut être monitoré (pensons anlytiques)
 
 <!--
 Fast, secure and cheap (static sites)
