@@ -7,23 +7,40 @@ style: |
     #left: 50%;
     bottom: 7px;
   }
+
   section header a { color: white;}
+
   video.inslide {
     position: absolute;
     width: 70%;
     height: 70%;
   }
-paginate: false
+
+  section.mainpage {
+    color: white;
+    background-image: url("https://scontent-cdt1-1.xx.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/185239524_1166143223834007_3633212344109793893_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=ed5ff1&efg=eyJpIjoidCJ9&_nc_ohc=9WtvE4TuCLEAX_H1weY&tn=1JDryBYi5GcXQVIo&_nc_ht=scontent-cdt1-1.xx&oh=985709b12da6735a1d93a0dd6ec171de&oe=61AE7538");
+    opacity: 1
+  }
+
+  section.mainpage h1 {
+    color: white;
+  }
+
+
 footer: '[github/ojacques](https://github.com/ojacques) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [github/angegar](https://github.com/angegar)'
+
 ---
 
-<!--backgroundImage: url('https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/title.jpg')-->
+<!-- paginate: false -->
+
 <br/>
 <br/>
 <br/>
 <br/>
 
+<!-- _class: mainpage -->
 # CI and CD
+
 ## Pour la documentation
 
 <!-- 
