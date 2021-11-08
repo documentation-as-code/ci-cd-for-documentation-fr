@@ -54,9 +54,11 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y aspell-fr
+        pip install 'pyspelling==2.6.1'
     - uses: actions/checkout@master
-    - uses: rojopolis/spellcheck-github-actions@0.18.0
-      name: Spellcheck
+    - name: Check spelling FR
+      run: |
+        pyspelling -c .spellcheck.yml
 
   StyleCheck:
     name: Style and Voice
