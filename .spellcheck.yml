@@ -1,7 +1,9 @@
+# https://facelessuser.github.io/pyspelling/configuration/
 matrix:
 - name: Markdown
   aspell:
     lang: fr
+    d: fr_FR
   dictionary:
     encoding: utf-8
     wordlists:
