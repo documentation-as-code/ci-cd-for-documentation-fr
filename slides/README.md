@@ -367,7 +367,8 @@ We use linters to check code "doc" quality.
 -->
 
 ---
-# CI: orthographe
+
+# CI: Orthographe
 
 ## En ligne de commande
 

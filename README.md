@@ -4,7 +4,7 @@
 
 ## Propos
 
-Ceci est le dépôt pour la présentation Agile Grenoble 2021 "CI et CD pour la documentation".
+Ceci est le dépôt pour la présentation Agile Grenoble 2021 "CI et CD pour la documentation."
 
 ## Transparents
 
