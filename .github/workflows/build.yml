@@ -50,6 +50,10 @@ jobs:
     name: Spelling
     runs-on: ubuntu-latest
     steps:
+    - name: install French dict
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y aspell-fr
     - uses: actions/checkout@master
     - uses: rojopolis/spellcheck-github-actions@0.18.0
       name: Spellcheck
