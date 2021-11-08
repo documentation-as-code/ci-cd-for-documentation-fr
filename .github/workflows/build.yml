@@ -87,7 +87,7 @@ jobs:
     needs: 
       - lint
       - spellCheck
-      - Links
+      - linkcheck
       - StyleCheck
     env: 
         MARP_VERSION: 0.21.1
