@@ -9,7 +9,25 @@ matrix:
     wordlists:
     - .ignoredWords.txt
   pipeline:
+  - pyspelling.filters.context:
+      context_visible_first: true
+      escapes: \\[\\-~]
+      delimiters:
+      # Ignore multiline content between fences (fences can have 3 or more hyphens, for frontmatter)
+      # ---
+      # content
+      # ---
+      - open: '(?s)^(?P<open>-{3,})$'
+        close: '^(?P=open)$'
   - pyspelling.filters.markdown:
+  - pyspelling.filters.html:
+      comments: false
+      ignores:
+      - :matches(code, pre)
+      - a:matches(.magiclink-compare, .magiclink-commit)
+      - span.keys
+      - :matches(.MathJax_Preview, .md-nav__link, .md-footer-custom-text, .md-source__repository, .headerlink, .md-icon)
+
   sources:
   - '**/*.md'
   default_encoding: utf-8

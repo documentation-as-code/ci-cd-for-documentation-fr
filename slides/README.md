@@ -16,6 +16,7 @@ style: |
 paginate: false
 footer: '[github/ojacques](https://github.com/ojacques) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [github/angegar](https://github.com/angegar)'
 ---
+
 <!--backgroundImage: url('https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/title.jpg')-->
 <br/>
 <br/>
@@ -90,7 +91,7 @@ Today, it's a very different situation
 
 ---
 
-# Nous avons beaucoup documenté
+# Nous avons beaucoup docummenté
 
 ## (avec du code)
 
@@ -151,14 +152,14 @@ Speaker: Olivier
 ---
 # 🤯
 
-## DXC, Microsoft, GitHub, GitLab, AWS tous utilisent "Documentation as code"
+## DXC, Microsoft, GitHub, GitLab, AWS tous utilisent "Documentation comme du code"
 
 Pour de bonnes raisons:
 
 - C'est rapide, sécurisé pas cher (sites statiques)
 - Il est facile de contribuer et donc de garder la documentation à jour
 - Cette solution a été éprouvée à plus d'un titre
-- Cela peut être monitoré (pensons anlytiques)
+- Cela peut être monitoré (pensons analytiques)
 
 <!--
 Fast, secure and cheap (static sites)
@@ -176,14 +177,14 @@ Monitoring:
 
 ---
 
-# Our challenges
+# Nos challenges
 
-- Common look & feel
-- Common voice
+- Une apparence commune
+- Une "voix" commune
 - DRY: Don't Repeat Yourself
-- Diagrams: what changes?
-- Broken links
-- Publishing
+- Schémas: qu'est-ce qui change ?
+- Liens hypertexte
+- Publications
 
 <!--
 speaker: Olivier
@@ -211,14 +212,14 @@ Looks like code to us!
 
 CI
 
-- Spell checking
-- Check for approved acronyms / custom dictionary
-- One voice
-- Periodically check for 404 links
+- Correction orthographique
+- Acronymes approuvés / dictionnaire personnalisé
+- Une seule voix
+- Contrôle périodique des liens morts
 
 CD
 
-- Automate publishing
+- Publication automatique
 
 <!--
 Speaker: Olivier
@@ -231,7 +232,7 @@ Speaker: Olivier
 <br/>
 <br/>
 
-# In practice
+# En pratique
 
 <!--
 Speaker: Laurent
@@ -243,11 +244,11 @@ Let's start with the development environment, which environment is required ?
 
 ---
 ![bg right 90%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/vscode.jpg)
-# Authoring
+# Création de contenu
 
-Leverage [`Markdown`](https://guides.github.com/features/mastering-markdown/)
+Utilisation de [`Markdown`](https://guides.github.com/features/mastering-markdown/)
 
-Use your favorite code editor:
+Avec votre éditeur préféré :
 
 - [IntelliJ](https://www.jetbrains.com/help/idea/markdown.html#navigation)
 - [Eclipse](https://marketplace.eclipse.org/content/markdown-text-editor)
@@ -264,14 +265,14 @@ There is no need to have developer skills, the Markdown syntax is easy to use.
 
 ---
 ![bg right 90%](https://github.com/hediet/vscode-drawio/raw/master/docs/drawio-png.gif)
-# Authoring (1)
+# Création (1)
 
-## Add editor extensions
+## Rajouter des extensions
 
-- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) (for syntax)
-- [Draw.io](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) (for drawings)
-- [PlantUML](https://github.com/qjebbs/vscode-plantuml) (for diagrams as code)
-- [Marp](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) (for slides)
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) (pour la syntaxe)
+- [Draw.io](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) (pour les schémas)
+- [PlantUML](https://github.com/qjebbs/vscode-plantuml) (pour les schémas comme du code)
+- [Marp](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) (pour les transparents)
 
 <!--
 Speaker: Laurent
@@ -281,15 +282,15 @@ Most of the integrated development environments (IDE) can be enhanced with multi
 ---
 ![bg right 90%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/codespaces.jpg)
 
-# Authoring (2)
+# Création (2)
 
-## GitHub [Codespaces](https://github.com/features/codespaces) or GitPod
+## GitHub [Codespaces](https://github.com/features/codespaces) ou GitPod
 
-- Edit directly from the browser
-- Make it easy for tech writers:
-  no `git clone/branch/push`
+- Édition directe dans le navigateur
+- Plus facile pour les éditeurs techniques:
+  pas de `git clone/branch/push`
   `git reset origin/main --hard`
-- Shared extensions across development environments
+- Une liste d'extension propre au projet
 
 <!--
 Speaker: Laurent
@@ -297,13 +298,13 @@ Speaker: Laurent
 GitHub offers an online VSCode instance attached to your GitHub repository. The Codespaces feature allows all the developer to share the same set of extensions as this configuration is automatically shared across the development environment attached to the project.
 -->
 ---
-# Authoring (3)
+# Création (3)
 
-## Pick a tool
+## Faîtes votre choix
 
 - [Jekyll](https://jekyllrb.com/) 🤐
-- [Hugo](https://gohugo.io/): powerful, blazing fast 👈
-- [Marp](https://marp.app/): slides as code in markdown
+- [Hugo](https://gohugo.io/): puissant, léger, rapide 👈
+- [Marp](https://marp.app/): transparents / présentations
 - [MkDocs](https://www.mkdocs.org/) + [material theme](https://squidfunk.github.io/mkdocs-material/) 👈
 
 <!--
@@ -328,7 +329,7 @@ GitHub offers an online VSCode instance attached to your GitHub repository. The 
   - Can integrate native HTML web page => Can integrate Marp outputs
 -->
 ---
-# Orchestrating
+# Orchestration
 
 - GitHub Actions
 - GitLab CI
@@ -353,7 +354,7 @@ We will see a set of GitHub Market Actions used in this documentation pipeline.
 - [markdownlint](https://github.com/DavidAnson/markdownlint)
 ![bg right 80%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/linter.png)
 
-## Editor linter
+## Linter dans l'éditeur
 
 - [VS Code markdownlint extension](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
@@ -367,16 +368,17 @@ We use linters to check code "doc" quality.
 -->
 
 ---
-# CI: Spell Checker
 
-## CLI spell checker
+# CI: Orthographe
+
+## En ligne de commande
 
 ![bg 90% right](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/spellcheck_code.png)
 
 - [spellcheck-github-actions](https://github.com/rojopolis/spellcheck-github-actions)
 - [spellchecker-cli](https://github.com/tbroadley/spellchecker-cli)
 
-## Editor spell checker
+## Dans l'éditeur
 
 - [VS Code code-spell-checker extension](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
@@ -387,11 +389,11 @@ Work with direction of exception and custom dictionary
 -->
 
 ---
-# CI: Link checker
+# CI: Vérification liens hypertexte
 
 ![bg right:62% 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/markdown-link-check.jpg)
 
-## 404 links
+## Liens morts
 
 [markdown-link-check](https://github.com/tcort/markdown-link-check)
 
@@ -403,9 +405,9 @@ Links must be checked regularly (cron) as they break without you doing any chang
 
 ![bg right:65% 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/style-vale.jpg)
 
-# CI: Testing (4)
+# CI: Tester (4)
 
-## Style / voice
+## Style / voix
 
 [Vale](https://github.com/errata-ai/vale)
 
@@ -414,20 +416,20 @@ Links must be checked regularly (cron) as they break without you doing any chang
 Used to ensure your a vocabulary style guide.
 -->
 ---
-# Publishing (CD)
+# Publication (CD)
 
 ![bg right 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/github_actions.png)
 
-## GIT Hosting
+## Hébergement GIT
 
 GitHub, GitLab, Bitbucket
 
-## Web hosting
+## Hébergement web
 
 - [GitHub pages](https://pages.github.com/) 👈
 - [GitLab pages](https://docs.gitlab.com/ee/user/project/pages/)
 - [Netlify](https://www.netlify.com/)
-- An AWS S3 bucket 👈
+- Un bucket AWS S3 👈
 
 <!--
 
@@ -435,9 +437,9 @@ You don't have to spin up a virtual machine or server to host your documentation
 -->
 ---
 ![bg right:58% 72%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/github_template.png)
-# Quick starts
+# Démarrage rapide
 
-Making it easy with:
+Facilitez vous la vie avec les :
 
 - [GitHub templates](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-template-repository)
 - [GitLab project templates](https://docs.gitlab.com/ee/gitlab-basics/create-project.html#project-templates)
@@ -449,4 +451,4 @@ We have been using GitHub template to ease the creation of Documentation As Code
 
 -->
 ---
-# Thank you 🙏
+# Merci 🙏

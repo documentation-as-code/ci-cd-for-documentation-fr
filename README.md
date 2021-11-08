@@ -1,19 +1,13 @@
-# CI and CD for Documentation
+# CI et CD pour la documentation
 
-[![build-web-site](https://github.com/documentation-as-code/addo-daac/workflows/build-web-site/badge.svg)](https://github.com/documentation-as-code/ci-cd-for-documentation/actions?query=workflow%3Abuild-web-site+branch%3Amain)
+[![build-web-site](https://github.com/documentation-as-code/ci-cd-for-documentation-fr/workflows/build-web-site/badge.svg)](https://github.com/documentation-as-code/ci-cd-for-documentation-fr/actions/workflows/build.yml?query=branch%3Amain)
 
-## Purpose
+## Propos
 
-This is the demo repository for All Day DevOps 2020 session on "CI and CD for documentation."
+Ceci est le dépôt pour la présentation Agile Grenoble 2021 "CI et CD pour la documentation."
 
-## Brainstorm
+## Transparents
 
-Brainstorm on what will be the content of the presentation:
+[https://documentation-as-code.github.io/ci-cd-for-documentation-fr/](https://documentation-as-code.github.io/ci-cd-for-documentation-fr/)
 
-[![Brainstorm](brainstorm.drawio.png)](https://app.diagrams.net/?sync=none#Hdocumentation-as-code%2Fci-cd-for-documentation%2Fmain%2Fbrainstorm.drawio.png)
-
-## Slides
-
-[https://documentation-as-code.github.io/ci-cd-for-documentation/](https://documentation-as-code.github.io/ci-cd-for-documentation/)
-
-See also [Marp documentation](https://marpit.marp.app/).
+Voir aussi la [documentation Marp](https://marpit.marp.app/).
