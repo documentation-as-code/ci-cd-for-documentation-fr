@@ -1,5 +1,6 @@
 angegar
 analytics
+AWS
 backgroundImage
 bg
 Bitbucket
@@ -17,6 +18,7 @@ DXC
 gif
 gil
 github
+GitHub
 GitLab
 GitPod
 gource
@@ -37,7 +39,9 @@ Linter
 markdownlint
 marp
 Marp
+material
 matomo
+Microsoft
 mkdocs
 MkDocs
 Netlify
@@ -48,6 +52,8 @@ PNG
 PPTX
 px
 shortcodes
+theme
 url
+Vale
 vscode
 VSCode

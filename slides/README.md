@@ -158,7 +158,7 @@ Pour de bonnes raisons:
 - C'est rapide, sécurisé pas cher (sites statiques)
 - Il est facile de contribuer et donc de garder la documentation à jour
 - Cette solution a été éprouvée à plus d'un titre
-- Cela peut être monitoré (pensons anlytiques)
+- Cela peut être monitoré (pensons analytiques)
 
 <!--
 Fast, secure and cheap (static sites)
@@ -264,9 +264,9 @@ There is no need to have developer skills, the Markdown syntax is easy to use.
 
 ---
 ![bg right 90%](https://github.com/hediet/vscode-drawio/raw/master/docs/drawio-png.gif)
-# Authoring (1)
+# Création (1)
 
-## Add editor extensions
+## Rajouter des extensions
 
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) (for syntax)
 - [Draw.io](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) (for drawings)
@@ -403,7 +403,7 @@ Links must be checked regularly (cron) as they break without you doing any chang
 
 ![bg right:65% 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/style-vale.jpg)
 
-# CI: Testing (4)
+# CI: Tester (4)
 
 ## Style / voice
 
