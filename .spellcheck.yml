@@ -9,6 +9,16 @@ matrix:
     wordlists:
     - .ignoredWords.txt
   pipeline:
+  - pyspelling.filters.context:
+      context_visible_first: true
+      escapes: \\[\\-~]
+      delimiters:
+      # Ignore multiline content between fences (fences can have 3 or more hyphens, for frontmatter)
+      # ---
+      # content
+      # ---
+      - open: '(?s)^(?P<open>-{3,})$'
+        close: '^(?P=open)$'
   - pyspelling.filters.markdown:
   - pyspelling.filters.html:
       comments: false
