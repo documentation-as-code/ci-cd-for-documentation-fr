@@ -1,5 +1,5 @@
-angegar
 analytics
+angegar
 backgroundImage
 bg
 Bitbucket
@@ -32,8 +32,8 @@ jpeg
 jpg
 laurent
 linter
-linters
 Linter
+linters
 markdownlint
 marp
 Marp
