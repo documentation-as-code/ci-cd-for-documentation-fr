@@ -225,7 +225,6 @@ Looks like code to us!
 
 ![bg right 80%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/ci-cd-for-doc.gif)
 
-
 # CI and CD for documentation
 
 CI
