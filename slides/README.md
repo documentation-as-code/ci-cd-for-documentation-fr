@@ -72,7 +72,7 @@ With 19.6B$ of revenues, 6000 customers and 138000 employees across 70 countries
 -->
 
 ---
-<!--backgroundImage: url('https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/simple.jpg')-->
+<!--backgroundImage: url('https://github.com/documentation-as-code/ci-cd-for-documentation-fr/raw/master/slides/slide-background.png')-->
 
 Documentation : La quête de la perfection
 
