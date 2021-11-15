@@ -18,7 +18,7 @@ style: |
 
   section.mainpage {
     color: white;
-    background-image: url("https://scontent-cdt1-1.xx.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/185239524_1166143223834007_3633212344109793893_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=ed5ff1&efg=eyJpIjoidCJ9&_nc_ohc=9WtvE4TuCLEAX_H1weY&tn=1JDryBYi5GcXQVIo&_nc_ht=scontent-cdt1-1.xx&oh=985709b12da6735a1d93a0dd6ec171de&oe=61AE7538");
+    background-image: url('https://scontent-cdt1-1.xx.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/185239524_1166143223834007_3633212344109793893_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=ed5ff1&efg=eyJpIjoidCJ9&_nc_ohc=9WtvE4TuCLEAX_H1weY&tn=1JDryBYi5GcXQVIo&_nc_ht=scontent-cdt1-1.xx&oh=985709b12da6735a1d93a0dd6ec171de&oe=61AE7538');
     opacity: 1
   }
 
@@ -108,7 +108,7 @@ Today, it's a very different situation
 
 ---
 
-# Nous avons beaucoup docummenté
+# Nous avons beaucoup documenté
 
 ## (avec du code)
 
