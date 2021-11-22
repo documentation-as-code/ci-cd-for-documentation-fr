@@ -454,3 +454,5 @@ We have been using GitHub template to ease the creation of Documentation As Code
 
 ---
 # Merci 🙏
+
+![bg right 60%](qr-slides.jpg)
