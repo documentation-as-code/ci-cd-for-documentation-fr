@@ -1,0 +1,46 @@
+---
+name: Build PDF Release
+on:
+  push:
+    branches:
+      - main
+jobs:
+  Build:
+    name: Build PDF release bundle
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - name: Install Ubuntu dependencies
+        run: |
+          sudo snap install chromium
+          sudo apt-get -q update
+          sudo apt-get -qq -y install pandoc texlive-xetex
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: "${{ runner.os }}-node-"
+          restore-keys: |
+            "${{ runner.os }}-node-"
+      - name: Install marp
+        run: |
+          npm install --save-dev @marp-team/marp-cli
+      - name: Build PDFs
+        run: |
+          for input in slides/*.md; do
+            output="${input%.md}.pdf"
+            echo "Input: $input, output $output"
+            if [[ "$(grep -l 'marp: true' "$input")" ]]; then
+              npx marp --allow-local-files "$input" -o "$output"
+            fi
+          done
+      - name: Create updated release
+        run: |
+          gh release delete presentation-latest -y || true
+          gh release create presentation-latest "$output"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
