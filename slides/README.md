@@ -250,7 +250,7 @@ Utilisation de [`Markdown`](https://guides.github.com/features/mastering-markdow
 Avec votre éditeur préféré :
 
 - [IntelliJ](https://www.jetbrains.com/help/idea/markdown.html#navigation)
-- [Eclipse](https://marketplace.eclipse.org/content/markdown-text-editor)
+- Eclipse
 - [VSCode](https://code.visualstudio.com/docs/languages/markdown) 👈
 
 <!--
@@ -454,3 +454,5 @@ We have been using GitHub template to ease the creation of Documentation As Code
 
 ---
 # Merci 🙏
+
+![bg right 60%](qr-slides.jpg)
