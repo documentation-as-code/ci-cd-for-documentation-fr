@@ -263,7 +263,7 @@ There is no need to have developer skills, the Markdown syntax is easy to use.
 -->
 
 ---
-![bg right 90%](drawio-png.gif)
+![bg right 90%](https://github.com/hediet/vscode-drawio/raw/master/docs/drawio-png.gif)
 # Création (1)
 
 ## Rajouter des extensions
