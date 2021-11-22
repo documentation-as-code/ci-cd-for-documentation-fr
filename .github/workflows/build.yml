@@ -90,7 +90,7 @@ jobs:
       - linkcheck
       - StyleCheck
     env: 
-        MARP_VERSION: 0.21.1
+        MARP_VERSION: 1.4.2
     steps:
       # Checks out a copy of your repository on the ubuntu-latest machine
       # https://github.com/actions/checkout
@@ -101,13 +101,14 @@ jobs:
             token: ${{ github.token }}
 
       # Runs the website build
-      - run: sudo  wget -qO- https://github.com/marp-team/marp-cli/releases/download/v0.21.1/marp-cli-v$MARP_VERSION-linux.tar.gz | tar xvz
+      - run: sudo  wget -qO- https://github.com/marp-team/marp-cli/releases/download/v$MARP_VERSION/marp-cli-v$MARP_VERSION-linux.tar.gz | tar xvz
       - run: chmod +x marp && export PATH=$PATH:$(pwd) &&  mkdir site && marp slides/README.md --html -o site/index.html
+      - run: cp slide/* site
       # https://github.com/actions/upload-artifact
       - uses: actions/upload-artifact@v2
         with:
           name: slides
-          path: site/index.html
+          path: site/*
 
       #https://github.com/marketplace/actions/deploy-to-github-pages
       - name: Deploy to GitHub Pages
