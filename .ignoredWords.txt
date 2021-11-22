@@ -37,6 +37,7 @@ Grenoble
 https
 Hugo
 hypertexte
+hypertextes
 inslide
 IntelliJ
 io
