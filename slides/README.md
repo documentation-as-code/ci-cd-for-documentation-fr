@@ -55,7 +55,7 @@ Hello I am Laurent, I also work for DXC Technology where I am acting internally 
 ![bg](ag2021-sponsors.jpg)
 
 ---
-<!--backgroundImage: url('https://github.com/documentation-as-code/ci-cd-for-documentation-fr/raw/master/slides/slide-background.png')-->
+<!--backgroundImage: url('slide-background.png')-->
 
 Documentation : La quête de la perfection
 
@@ -111,7 +111,7 @@ The context for the experience report is our own company (but we do that with ou
 
 ---
 
-![bg 95% right:62%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/service-catalog-hugo.gif)
+![bg 95% right:62%](service-catalog-hugo.gif)
 
 # Catalogue de service
 
@@ -129,7 +129,7 @@ Service catalog:
 -->
 ---
 
-![bg 95% right:62%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/service-documentation-mkdocs.gif)
+![bg 95% right:62%](service-documentation-mkdocs.gif)
 
 # Documentation de service
 Avec [MkDocs](https://www.mkdocs.org/) +
@@ -144,7 +144,7 @@ The documentation for each service leverages Mkdocs which we love because it's v
 
 ---
 
-![bg center 60%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/doc-site.jpg)
+![bg center 60%](doc-site.jpg)
 
 <!--
 Speaker: Olivier
@@ -191,7 +191,7 @@ speaker: Olivier
 
 -->
 ---
-<video loop class="inslide" src="https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/gource.mp4" autoplay muted />
+<video loop class="inslide" src="gource.mp4" autoplay muted />
 
 <!--
 speaker: Olivier
@@ -206,7 +206,7 @@ Looks like code to us!
 
 ---
 
-![bg right 80%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/ci-cd-for-doc.gif)
+![bg right 80%](ci-cd-for-doc.gif)
 
 ## CI
 
@@ -227,7 +227,7 @@ Speaker: Olivier
 ---
 <!-- _class: mainpage -->
 
-![bg](https://github.com/documentation-as-code/ci-cd-for-documentation-fr/raw/master/slides/title.png)
+![bg](title.png)
 <br/>
 <br/>
 
@@ -242,7 +242,7 @@ Let's start with the development environment, which environment is required ?
 -->
 
 ---
-![bg right 90%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/vscode.jpg)
+![bg right 90%](vscode.jpg)
 # Création de contenu
 
 Utilisation de [`Markdown`](https://guides.github.com/features/mastering-markdown/)
@@ -263,7 +263,7 @@ There is no need to have developer skills, the Markdown syntax is easy to use.
 -->
 
 ---
-![bg right 90%](https://github.com/hediet/vscode-drawio/raw/master/docs/drawio-png.gif)
+![bg right 90%](drawio-png.gif)
 # Création (1)
 
 ## Rajouter des extensions
@@ -279,7 +279,7 @@ Speaker: Laurent
 Most of the integrated development environments (IDE) can be enhanced with multiple plugins. Here is a short list of what we used to use.
 -->
 ---
-![bg right 90%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/codespaces.jpg)
+![bg right 90%](codespaces.jpg)
 
 # Création (2)
 
@@ -351,7 +351,7 @@ We will see a set of GitHub Market Actions used in this documentation pipeline.
 
 - [github super-linter](https://github.com/github/super-linter)
 - [markdownlint](https://github.com/DavidAnson/markdownlint)
-![bg right 80%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/linter.png)
+![bg right 80%](linter.png)
 
 ## Linter dans l'éditeur
 
@@ -372,7 +372,7 @@ We use linters to check code "doc" quality.
 
 ## En ligne de commande
 
-![bg 90% right](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/spellcheck_code.png)
+![bg 90% right](spellcheck_code.png)
 
 - [spellcheck-github-actions](https://github.com/rojopolis/spellcheck-github-actions)
 - [spellchecker-cli](https://github.com/tbroadley/spellchecker-cli)
@@ -390,7 +390,7 @@ Work with direction of exception and custom dictionary
 ---
 # CI: Vérification liens hypertexte
 
-![bg right:62% 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/markdown-link-check.jpg)
+![bg right:62% 95%](markdown-link-check.jpg)
 
 ## Liens morts
 
@@ -402,7 +402,7 @@ Links must be checked regularly (cron) as they break without you doing any chang
 -->
 ---
 
-![bg right:65% 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/style-vale.jpg)
+![bg right:65% 95%](style-vale.jpg)
 
 # CI: Tester (4)
 
@@ -417,7 +417,7 @@ Used to ensure your a vocabulary style guide.
 ---
 # Publication (CD)
 
-![bg right 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/github_actions.png)
+![bg right 95%](github_actions.png)
 
 ## Hébergement GIT
 
@@ -435,7 +435,7 @@ GitHub, GitLab, Bitbucket
 You don't have to spin up a virtual machine or server to host your documentation site. Major Source Code Management applications already host web pages.
 -->
 ---
-![bg right:58% 72%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/github_template.png)
+![bg right:58% 72%](github_template.png)
 # Démarrage rapide
 
 Facilitez vous la vie avec les :
