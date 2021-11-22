@@ -452,7 +452,7 @@ We have been using GitHub template to ease the creation of Documentation As Code
 
 ---
 
-# Daas VS Confluence
+# DocAsCode VS Confluence
 
 ![h:450](https://github.com/documentation-as-code/ci-cd-for-documentation-fr/raw/master/slides/compare_daas_confluence.png)
 
