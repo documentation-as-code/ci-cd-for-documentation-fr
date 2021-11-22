@@ -17,6 +17,7 @@ cron
 dev
 DevOps
 documentation-as-code.github.io
+docx
 Don't
 Eclipse
 Repeat
@@ -36,6 +37,7 @@ Grenoble
 https
 Hugo
 hypertexte
+hypertextes
 inslide
 IntelliJ
 io
@@ -58,13 +60,16 @@ matomo
 Microsoft
 mkdocs
 MkDocs
+mobi
 monitoré
 Netlify
 ojacques
 olivier
+pdf
 PlantUML
 PNG
 PPTX
+pptx
 project
 px
 shortcodes
