@@ -250,7 +250,7 @@ Utilisation de [`Markdown`](https://guides.github.com/features/mastering-markdow
 Avec votre éditeur préféré :
 
 - [IntelliJ](https://www.jetbrains.com/help/idea/markdown.html#navigation)
-- [Eclipse](https://marketplace.eclipse.org/content/markdown-text-editor)
+- Eclipse
 - [VSCode](https://code.visualstudio.com/docs/languages/markdown) 👈
 
 <!--
