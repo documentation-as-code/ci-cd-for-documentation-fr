@@ -8,7 +8,7 @@ style: |
     bottom: 7px;
   }
 
-  section header a { color: white;}
+  section footer a { color: #DDD;}
 
   video.inslide {
     position: absolute;
@@ -30,16 +30,8 @@ style: |
 footer: '[github/ojacques](https://github.com/ojacques) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [github/angegar](https://github.com/angegar)'
 
 ---
-
-<!-- paginate: false -->
-
-<br/>
-<br/>
-<br/>
-<br/>
-
 <!-- _class: mainpage -->
-# CI and CD
+# CI / CD
 
 ## Pour la documentation
 
@@ -60,16 +52,7 @@ Hello I am Laurent, I also work for DXC Technology where I am acting internally 
 -->
 
 ---
-<!--backgroundImage: url('https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/dxc.jpg')-->
-
-<!--
-speaker: Olivier
-
-Laurent and I both work for DXC technology customers. DXC technology is a global IT services leader.
-
-With 19.6B$ of revenues, 6000 customers and 138000 employees across 70 countries, we are - in many dimensions - big.
-
--->
+![bg](ag2021-sponsors.jpg)
 
 ---
 <!--backgroundImage: url('https://github.com/documentation-as-code/ci-cd-for-documentation-fr/raw/master/slides/slide-background.png')-->
@@ -131,6 +114,7 @@ The context for the experience report is our own company (but we do that with ou
 ![bg 95% right:62%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/service-catalog-hugo.gif)
 
 # Catalogue de service
+
 Avec [Hugo](https://gohugo.io/)
 
 <!--
@@ -173,9 +157,8 @@ Speaker: Olivier
 
 Pour de bonnes raisons:
 
-- C'est rapide, sécurisé pas cher (sites statiques)
+- C'est rapide, sécurisé, économique (sites statiques)
 - Il est facile de contribuer et donc de garder la documentation à jour
-- Cette solution a été éprouvée à plus d'un titre
 - Cela peut être monitoré (pensons analytiques)
 
 <!--
@@ -194,14 +177,14 @@ Monitoring:
 
 ---
 
-# Nos challenges
+# Les besoins
 
 - Une apparence commune
-- Une "voix" commune
+- Une "voix" commune (temps, acronymes, dictionnaire)
 - DRY: Don't Repeat Yourself
-- Schémas: qu'est-ce qui change ?
-- Liens hypertexte
-- Publications
+- Identifier les changements dans schémas & diagrammes
+- Surveiller les liens hypertextes
+- Publier sous différents formats (web, pdf, docx, pptx, mobi)
 
 <!--
 speaker: Olivier
@@ -225,16 +208,14 @@ Looks like code to us!
 
 ![bg right 80%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/ci-cd-for-doc.gif)
 
-# CI and CD for documentation
-
-CI
+## CI
 
 - Correction orthographique
 - Acronymes approuvés / dictionnaire personnalisé
 - Une seule voix
 - Contrôle périodique des liens morts
 
-CD
+## CD
 
 - Publication automatique
 
@@ -244,6 +225,7 @@ Speaker: Olivier
 -->
 
 ---
+<!-- _class: mainpage -->
 
 ![bg](https://github.com/documentation-as-code/ci-cd-for-documentation-fr/raw/master/slides/title.png)
 <br/>
@@ -307,7 +289,7 @@ Most of the integrated development environments (IDE) can be enhanced with multi
 - Plus facile pour les éditeurs techniques:
   pas de `git clone/branch/push`
   `git reset origin/main --hard`
-- Une liste d'extension propre au projet
+- Extensions propres au projet
 
 <!--
 Speaker: Laurent
@@ -467,5 +449,8 @@ Speaker: Laurent
 We have been using GitHub template to ease the creation of Documentation As Code
 
 -->
+---
+# Questions / réponses
+
 ---
 # Merci 🙏
