@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - master
 jobs:
   Build:
     name: Build PDF release bundle
