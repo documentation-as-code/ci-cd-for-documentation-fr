@@ -283,7 +283,7 @@ Most of the integrated development environments (IDE) can be enhanced with multi
 
 # Création (2)
 
-## GitHub [Codespaces](https://github.com/features/codespaces) ou GitPod
+## [Codespaces](https://github.com/features/codespaces), [vscode.dev](https://vscode.dev/), [gitpod](https://www.gitpod.io)
 
 - Édition directe dans le navigateur
 - Plus facile pour les éditeurs techniques:
@@ -303,7 +303,7 @@ GitHub offers an online VSCode instance attached to your GitHub repository. The 
 
 - [Jekyll](https://jekyllrb.com/) 🤐
 - [Hugo](https://gohugo.io/): puissant, léger, rapide 👈
-- [Marp](https://marp.app/): transparents / présentations
+- [Marp](https://marp.app/), [sli.dev](https://sli.dev): transparents / présentations
 - [MkDocs](https://www.mkdocs.org/) + [material theme](https://squidfunk.github.io/mkdocs-material/) 👈
 
 <!--
