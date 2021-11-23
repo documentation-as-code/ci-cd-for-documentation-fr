@@ -16,6 +16,7 @@ contributeurs
 cron
 dev
 DevOps
+DocAsCode
 documentation-as-code.github.io
 docx
 Don't
@@ -73,9 +74,13 @@ pptx
 project
 px
 shortcodes
+sli.dev
 spellcheck-github-actions
 spellchecker-cli
+SRE
+Sr
 super-linter
+Technology
 templates
 theme
 url
