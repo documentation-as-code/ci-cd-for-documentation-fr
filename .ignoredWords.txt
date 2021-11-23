@@ -31,7 +31,7 @@ GIT
 github
 GitHub
 GitLab
-GitPod
+Gitpod
 gource
 Grenoble
 https
@@ -81,5 +81,6 @@ theme
 url
 Vale
 vscode
+vscode.dev
 VSCode
 web
