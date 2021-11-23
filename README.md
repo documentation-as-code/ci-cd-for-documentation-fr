@@ -26,6 +26,10 @@ style: |
     color: white;
   }
 
+  section table {
+    border-style : hidden!important;
+    }
+
 
 footer: '[github/ojacques](https://github.com/ojacques) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [github/angegar](https://github.com/angegar)'
 
@@ -57,7 +61,14 @@ Hello I am Laurent, I also work for DXC Technology where I am acting internally 
 ---
 <!--backgroundImage: url('slide-background.png')-->
 
-Documentation : La quête de la perfection
+| ![drop-shadow](olivier.jpg) | ![drop-shadow](laurent.png) |
+|------|------|
+| Olivier Jacques | Laurent Gil |
+| Sr DevOps Consultant<br/>**AWS** | DevOps Coach, SRE<br/>**DXC Technology** |
+
+---
+
+# Documentation : La quête de la perfection
 
 # 🏰🦄🤴👸🐴👻⚔🗡🏴‍☠️
 
