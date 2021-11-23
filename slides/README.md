@@ -283,7 +283,7 @@ Most of the integrated development environments (IDE) can be enhanced with multi
 
 # Création (2)
 
-## [Codespaces](https://github.com/features/codespaces), [vscode.dev](https://vscode.dev/), [gitpod](https://www.gitpod.io)
+## [Codespaces](https://github.com/features/codespaces), [vscode.dev](https://vscode.dev/), [Gitpod](https://www.gitpod.io)
 
 - Édition directe dans le navigateur
 - Plus facile pour les éditeurs techniques:
